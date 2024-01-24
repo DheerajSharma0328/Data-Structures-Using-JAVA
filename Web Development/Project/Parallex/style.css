@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#main{
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    perspective: 10px;
+    
+    
+}
+
+.container{
+    position: relative;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    transform-style: preserve-3d;
+    flex-direction: column;
+    z-index: -2;
+    
+    
+}
+
+.background , .foreground{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    z-index: -1;
+
+    
+}
+
+#mainheading{
+    position: absolute;
+    top: 150px;
+    color: white;
+    font-size: 7em;
+    text-shadow: 0 0 20px rgb(74, 193, 226);
+    letter-spacing: 4px;
+}
+
+.background{
+    transform: translateZ(-20px) scale(3.1);    
+}
+
+.foreground{
+    transform: translateZ(-10px) scale(2);
+}
+
+#section_heading{
+    font-size: 3em;
+    padding-left: 100px;
+    padding-top: 50px;
+    
+
+}
+
+section{
+    background-color: rgb(97, 97, 97);
+    color: white;
+    position: relative;
+       
+}
+
+#main_para{
+    text-align: justify;
+    padding: 0 100px 100px 100px;
+    font-size: 1.5em;
+    line-height: 40px;
+}
+
+#biking{
+    
+    background-image: url(sport-1.jpg);
+    position: relative;
+    background-attachment: fixed;
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+#biking_heading{
+    background-color: white;
+    color: black;
+    width: 12%;
+    font-size: 3em; 
+}
+
+#biking_para{
+    text-align: justify;
+    font-size: 1.5em;
+    padding: 100px;
+    line-height: 40px;
+        
+        
+}
+
+#surfing{
+    background-image: url(sport-3.jpg);
+    background-attachment: fixed;
+    position: relative;
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#surfing_heading{
+    background-color: white;
+    color: black;
+    width: 15%;
+    font-size: 3em; 
+}
+
+
+
+#paragliding_heading{
+    background-color: white;
+    color: black;
+    width: 23%;
+    font-size: 3em; 
+    
+}
+
+#paragliding{
+    background-image: url(sport-2.jpg);
+    background-attachment: fixed;
+    position: relative;
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
